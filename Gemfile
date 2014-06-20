@@ -10,3 +10,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'spring', group: :development
 gem 'turbolinks'
 gem 'uglifier', '>= 1.3.0'
+
+group :test do
+  gem 'cucumber-rails'
+  gem 'database_cleaner'
+end
