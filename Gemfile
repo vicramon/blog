@@ -14,4 +14,5 @@ gem 'uglifier', '>= 1.3.0'
 group :test do
   gem 'cucumber-rails'
   gem 'database_cleaner'
+  gem 'rspec-rails'
 end
